@@ -1,0 +1,11 @@
+git status
+git init
+git config --global user.name "Shubham Singh"
+git config --global user.email "shubham.aaps@gmail.com"
+git config user.name "Shubham Singh"
+git config user.email "shubham.aaps@gmail.com"
+git add
+git commit -m "<message_for_commit>"
+git log
+git diff <filename>
+
