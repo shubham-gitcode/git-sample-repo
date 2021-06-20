@@ -1,11 +1,22 @@
-git status -> prints the status of the Git Repository
-git init
-git config --global user.name "Shubham Singh"
-git config --global user.email "shubham.aaps@gmail.com"
-git config user.name "Shubham Singh"
-git config user.email "shubham.aaps@gmail.com"
-git add
-git commit -m "<message_for_commit>"
-git log
-git diff <filename>
+------------------------------------------------Git Commands------------------------------------------------------
+git status 						 -> prints the status of the Git Repository
+git init						 -> Intitializs the Git Repository
+git config --global user.name "Shubham Singh"   	 -> Specify UserName globally
+git config --global user.email "shubham.aaps@gmail.com"  -> Specify Email globally
+git config user.name "Shubham Singh"			 -> Specify UserName for Particular repository
+git config user.email "shubham.aaps@gmail.com"		 -> Specify Email for Particular Repository
+git add						 	 -> Add file to staging environment
+git commit -m "<message_for_commit>"			 -> Commit File to local repository
+git log							 -> Check file log directory
+git diff <filename>					 -> Check changes made to file
+git remote add origin <GitHub Repository URL>		 -> Establish connection to the remote GitHub Repository
+git push origin master					 -> Push the code to amster branch
+-------------------------------------------------------------------------------------------------------------------
 
+Scenario 1:
+First release -> Done
+Second release -> Done
+
+Scenario 2:
+Third Release -> Done
+Fourth release -> Done
